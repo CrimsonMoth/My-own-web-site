@@ -139,3 +139,47 @@ header a:hover {
     transform: rotatey(360deg) rotatez(360deg);
   }
 }
+
+footer {
+  background: linear-gradient(-45deg, #00537e, #3aa17e);
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  min-width: 200px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px -5px #010101;
+  padding: 20px;
+  border-radius: 15px;
+  background-size: 220%;
+  transition: 0.5s ease;
+}
+
+.btn-1 {
+  background-image: linear-gradient(45deg, #ed1e79, #662d8c, #ed1e79);
+}
+.btn-2 {
+  background-image: linear-gradient(45deg, #63e2ff, #d585ff, #63e2ff);
+}
+.btn-3 {
+  background-image: linear-gradient(45deg, #fcee21, #009e00, #fcee21);
+}
+.btn-4 {
+  background-image: linear-gradient(45deg, #fbb03b, #d4145a, #fbb03b);
+}
+.btn:hover {
+  background-position: right;
+}
+
+a {
+  text-decoration: none;
+}
