@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   min-height: 100vh;
   // justify-content: center;
   // align-items: center;
+  // position: relative;
 }
 
 header {
