@@ -1,3 +1,7 @@
+html {
+  font-size: 15px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +10,30 @@
   box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
 body {
   background: linear-gradient(45deg, #009245, #fcee21);
   min-height: 100vh;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 header {
